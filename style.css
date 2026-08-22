@@ -6,3 +6,14 @@
       transform: translateY(-20%) scale(1.02) rotate(1deg);
     }
   }
+
+  @keyframes smooth-pulse {
+              0%, 100% {
+                transform: scale(1) translateX(0);
+                opacity: 1;
+              }
+              50% {
+                transform: scale(1.03) translateX(6px);
+                opacity: 0.85;
+              }
+            }
